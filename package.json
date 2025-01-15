@@ -8,7 +8,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "prebuild": "mkdir dist || true",
-    "build": "npx expo export:web --output-dir dist",
+    "build": "npx expo export -p web",
+    "postbuild": "mv web-build/* dist/ && rm -rf web-build",
     "preview": "expo start --web"
   },
   "dependencies": {
