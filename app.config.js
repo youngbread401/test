@@ -1,9 +1,10 @@
 export default {
-  name: '3D Dice',
-  slug: '3d-dice',
-  version: '1.0.0',
-  orientation: 'portrait',
+  name: "dndgrid",
+  version: "1.0.0",
+  extra: {
+    enableWeb: true
+  },
   web: {
-    bundler: 'webpack'
+    bundler: "webpack"
   }
 }; 
