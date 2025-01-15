@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "3D Dice",
+    "slug": "3d-dice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "web": {
+      "bundler": "webpack"
+    }
+  }
+}

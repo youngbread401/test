@@ -1,0 +1,30 @@
+.delete-confirm {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.delete-confirm input {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.delete-confirm button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.delete-button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+} 
