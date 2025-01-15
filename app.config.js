@@ -5,6 +5,14 @@ export default {
     enableWeb: true
   },
   web: {
-    bundler: "webpack"
+    bundler: "webpack",
+    output: {
+      path: "dist"
+    },
+    build: {
+      babel: {
+        include: ["@expo/vector-icons"]
+      }
+    }
   }
 }; 
